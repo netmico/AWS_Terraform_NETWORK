@@ -1,4 +1,4 @@
-variable "aws.access_key" {
+variable "aws_access_key" {
   description = "aws_access_key"
   type        = string
 
@@ -6,7 +6,7 @@ variable "aws.access_key" {
 
 variable "aws_secret_key" {
   description = "aws_secret_key"
-  type = "string"
+  type = string
 
 }
 variable "aws_region" {
@@ -42,6 +42,13 @@ variable "public_subnet_cidr" {
   type        = string
   default     = "10.92.1.0/24"
 
+}
+variable "private_subnet_cidr" {
+ description = "private_subnet_cidr"
+  type        = string
+  default     = "10.92.2.0/24"
+
+ 
 }
 
 

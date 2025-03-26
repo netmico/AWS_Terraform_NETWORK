@@ -1,1 +1,1 @@
-Copy Dev branch instead.
+Ignore main branch, Copy Dev branch instead.
